@@ -1,0 +1,85 @@
+    CODEPEN PART 2 FINISHED
+    https://codepen.io/yovanna/pen/GRgYMxK?editors=1100
+    1. What is Semantic HTML? 
+        it is the process of providing meaning to a content, so it can be easily understant by developers, machines, screen readers and search engines. 
+    2. What is HTML used for? 
+       HTML is short for Hypertext Markup Language. It is used to create pages that are displayed in the world wide web. 
+    3. What is an attribute and where do we put it? 
+        Are modifiers for the html tags and they provide additional information. In most cases are difined in NAME='VALUE' and they are always declared in the opening tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        It is the first header tag visible on a page and it is used for the tittle. Best SEO indicate it should be used ones, but it isn't mandatory.
+    5. Name two tags that have required attributes
+        <img src='' alt=''>
+        <a href=''></a>
+    6. What do we put in the head of our HTML document?
+        metadata: <title>, <style>, <meta>, <link>, <script>, and <base>
+    7. What is an id? 
+        The id attribute specifies a unique id for an html element (the value must be unique within the html document). The id attribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to manipulate the element with the specific id.
+    8. What elements can I add an id to? 
+        The id attribute can be used on any html element, and must not contain whitespace (spaces, tabs, etc.)
+    9. How many times can I use the same id on a page?
+        Only ones
+    10. What is a class?
+        Is used to define equal styles for elements with the same class name, that mean all html elements with the same class attribute will get the mase style.
+    11. What elements can I add a class to?
+        The class attribute can be used on any html elements
+    12. How many times can I use the same class on a page?
+        There isn't technical limit, but one should heavily consider having loads of classes on any element as the browser will have to parse all the classes
+    13. How do I get my link to open in a new tab?
+        Add a target="_blank" attribute to your link
+    14. What is the alt attribute used for? 
+        The text should describe the image if the image contains information
+        The text should explain where the link goes if the image is inside an <a> element
+        Use alt="" if the image is only for decoration
+    15. How do I reference an id?
+        with #id
+    16. What is the difference between a section and a div?
+        <section>: represents a generic section of a document.
+        <div>: is the generic container for flow content, which does not inherently represent anything.
+    17. What is CSS used for? 
+        CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+    18. How to we select an element? Example - every h2 on the page
+        Any other HTML element can be selected with CSS by using the tag name without the angle brackets, example h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+        <div id="top">
+            <h1>recipe x</h1>
+            <p class="recipe">recipe 1</p>
+            <p class="recipe">recipe 2</p>
+        </div>
+    20. How do we select classes in CSS?
+        With a period (.) character, followed by the name of the class.
+    21. How do we select a p element with a single class of “human””?
+        .human{}
+    22. What is a parent child selector? When would this be useful? 
+        The ("parent > child") selector selects all elements that are a direct child of the specified element.
+        Child Selector is used to match all the elements which are child of a specified element. It gives the relation between two elements. The element > element selector selects those elements which are the children of specific parent.
+    23. How do you select all links within a div with the class of sidebar?
+        div .sidebar{}
+    24. What is a pseudo selector?
+        It is a selector that selects elements that are in a specific state. they are the first element of their type, or they are being hovered over by the mouse pointer.
+    25. What do we use the change the spacing between lines?
+        we use the line-height property in css
+    26. What do we use to change the spacing between letters?
+        we use letter-spacing property in css
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        We use 'text-transform property to managing lowercase, capitalize and CAPITALS
+    28. How do I add a 1px border around my div that is dotted and black?
+        x{ border: 1px dotted black;}
+    29. How do I select everything on the page?
+        The * selector selects all elements
+    30. How do I write a comment in CSS?
+        /*------this way----*/
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd command
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls command
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm filename command, be carefull because it does not ask you for confirmation when deleting files. Be sure you really want to delete your files before you use rm, because once the files are gone, they're not coming back.
+    34. Why should I use version control? 
+        Version control systems are a category of software tools that help a software team manage changes to source code over time. Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.
+    35. How often should I commit to github?
+        commit whenever you finish a step
+    36. What is the command we would use to push our repo up to github?
+        The git push command pushes changes from your local repo into a remote repo. git push shares changes you've made with others. it's generally not used with clone repos that people work in.
+    37. Walk me through Lambda's git flow. 
